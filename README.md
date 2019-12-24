@@ -13,3 +13,10 @@ $ docker-compose up -d
 ```
 
 [http://localhost:8080](http://localhost:8080)
+
+
+## access to db 
+
+```sh
+$ dc exec db mysql -h localhost -u wordpress -pwordpress wordpress
+```
